@@ -1,0 +1,562 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    padding: 4%  10%;
+    background-image: url(./images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+    display: flex;
+    align-items: center;
+   width: 20%;
+
+}
+.logo img{
+    width: 50px;
+    position: fixed;
+}
+.logo p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+   font-weight: bolder;
+    margin-top:20px;
+    margin-left: 55px;
+    color: white;
+}
+.container-fluid{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.collapse navbar-collapse{
+   justify-content: center;
+}
+.menu{
+   width: 80%;
+   display: flex;
+   /* margin: auto; */
+   justify-content: ;
+   align-items: center;
+   list-style: none;
+}
+.menu a{
+   margin: 0px 20px;
+   text-decoration: none;
+   font-size: 0.5 rem;
+   color: white;
+}
+.menu a:hover{
+   font-size: 15px;
+   transform: scale(1);
+   border-radius: 10px;
+   padding: 5px 10px;
+   background-color: antiquewhite;
+   color: rgba(0, 0, 0, 0.621);
+}
+.menu-toggle{
+   display: none;
+}
+.bar{
+width: 22px;
+height:3px;
+background-color: white;
+margin: 2px 0px;  
+}
+.txt{
+    width: 100%;
+    margin: auto;
+    display:flex ;
+}
+.h-txt{
+    width: 50%;
+    padding: 20px;
+    padding-top: 10%;
+    text-align: center;
+}
+.h-txt h1{
+    font-size: 130px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.h-txt h2{
+    font-size: 50px;
+    word-spacing: -2px;
+    color: white;
+    margin-top: -35px;
+    font-family:'Courier New', Courier, monospace;
+}
+.h-txt button{
+    all: unset;
+    background-color:white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+    width:60%;
+}
+.h-txt button:hover{
+    background-color: #1D0200;
+    transform: translate3d(30px,10px,0px);
+    transition: 0.7s ease-out;
+    
+}
+.h-txt a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+
+.i-txt{
+    width: 40%;
+    margin-top:-0px;
+    margin-left: 40px;
+    overflow: hidden;
+    height: auto;
+    padding: 0px;
+     }
+     .i-txt img:hover{
+      transform: translate3d(0px,80px,0px);
+      transition: 1s ease-in-out;
+      
+     }
+
+
+
+     /* section part  */
+
+
+
+
+
+
+     section{
+        width: 90%;
+        margin: auto; 
+        padding: 10px 20px;
+        
+
+     }
+     .sect{
+        display: flex;
+     }
+
+     
+          .sect img{
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        margin-top: 100px;
+        margin-left: 220px;
+     }
+     .sect img:hover{
+      transform: translate3d(30px,100px 0px);
+      transition: 0.7s ease-in-out;
+
+     }
+     .tec{
+        text-wrap: wrap;
+        margin-top: 100px;
+        margin-left: 100px;
+     }
+     .tec button{
+        all: unset;
+        background-color: black;
+         padding: 10px 20px;
+          border-radius: 15px;
+         text-align: center;
+         width: 60%;
+     }
+     .tec button:hover{
+        background-color: #1D0200;
+        transform: translate3d(30px,10px,0px);
+        transition: 0.7s ease-out;
+     }
+     .tec a{
+        text-decoration: none;
+        color: white;
+     }
+
+
+
+
+
+
+
+
+     /* card */
+     .card-container{
+        display: flex;
+        background-color:   #1D0200;
+        justify-content: center;
+        padding: 40px ;
+        margin: auto;
+        margin-top: 50px;
+        flex-wrap: wrap;
+        border-radius: 20px;
+     }
+     .card{
+        overflow: hidden;
+        width: 28%;
+        margin-left:30px;
+        padding: 10px 10px;
+        
+     }
+     .card img{
+        width: 100%;
+        margin: auto;
+        
+     }
+     .card:hover{
+      transform: translate3d(30px,10px, 0px);
+      transition: 0.7s ease-out;
+      margin: 10px 30px;
+     }
+     
+     .card button{
+      all: unset;
+      background-color: #1D0200;
+      padding: 5px 20px;
+      border-radius: 5px;
+      justify-content: center;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      width: 80%;
+      text-align: center;
+      
+     }
+     .card button:hover{
+        background-color:  #1D0200;
+        transform: translate3d(0px,10px,0px);
+        transition: 0.7s ease-out;
+     }
+     .card a{
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+     }
+     .class-content{
+      flex-wrap: wrap;
+      display: flex;
+
+     }
+     .class-content >div{
+      width: 50%;
+      
+     }
+     .class-content p{
+      margin-bottom: 20px;
+      font-size: 10px;
+     }
+     .class-content>div h4{
+      margin-left: 20px;
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+     /* sect 1 */
+     
+     .sect-1{
+        display: flex;
+     }
+
+     
+        .sect-1 img{
+        width: 2,964.49px;
+        height: 300px;
+        margin-top: 100px;
+        margin-right: 100px;
+        overflow: hidden;
+     }
+     .tec-1{
+        text-wrap: wrap;
+        margin-top: 100px;
+        margin-left: 120px;
+     }
+     .tec-1 h1{
+        font-family: cursive;
+        font-size: 60px;
+            }
+     .tec-1 button{
+         all: unset;
+         background-color: #1D0200;
+         padding: 10px 20px;
+         border-radius: 15px;
+         text-align: center;
+         width: 60%;
+         
+     }
+     .tec-1 button:hover{
+        background-color: #1D0200;
+        transform: translate3d(0px,10px,0px);
+        transition: 0.7s ease-out;
+     }
+     .tec-1 a{
+        text-decoration: none;
+        color: white;
+     }
+
+
+
+     /* Feedbacks */
+     .feedbacks{
+      background-color: #1D0200;
+      text-align: center;
+      padding: 7% 20%;
+      border-top: 2px solid white;
+           
+     }
+     .feedbacks p{
+      line-height: 1.5;
+      font-size: 1em;
+      font-weight: bolder;
+      color: white;
+     }
+     .feedbacks-image{
+      width: 50%;
+      border-radius: 50%;
+      margin: 20px;
+     }
+     .feedbacks-image1{
+      width: 50%;
+      border-radius: 50%;
+      margin: 20px;
+      height: 50%;
+
+     }
+
+   .carousel-item{
+      padding: 7% 20%;
+   }
+   
+footer{
+   background-image: url(./images/jmh.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: auto;
+   color: white;
+   text-align: center;
+   border-top: 3px solid white;
+   display: flex;
+   justify-content: center;
+   padding: 60px 50px;
+   
+}
+.first{
+   text-align: center;
+   margin-left: 35%;
+
+}
+.first h2{
+   font-weight: bolder;
+   font-size: 40px
+}
+.second{
+   margin-left: auto;
+   text-align: right;
+   margin-top: 20px;
+} 
+
+/* Medi */
+
+@media screen and (max-width:900px)  {
+   
+   header{
+      text-align: center;
+      width: 100%;
+   }
+   .txt{
+      width: 100%;
+      
+   }
+   
+   .h-txt{
+      text-align: center;
+      flex-direction: row;
+   }
+  
+   .h-txt button{
+      padding: 5px 50px;
+      text-align: center;
+      margin: auto;
+      width: 60%;
+      margin-top:30%;
+   }
+   .h-txt a{
+      font-size: 10px;
+   }
+   .h-txt h1{
+      font-size: 60px;
+      text-align: center;
+     
+   }
+   .h-txt h2{
+      line-height: 1.5;
+      font-size:100%;
+      margin-top: 5px;
+      text-align: center;
+   
+   }
+   .i-txt{
+      margin-top: 40px;
+      margin-left: 50px;
+   }
+   /* section */
+   section{
+      align-items: center;
+      
+   }
+  
+   .sect{
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      margin: auto;
+      text-wrap: wrap;
+      display: flex;
+   }
+   .sect img{
+      margin: auto;
+      
+   }
+   .tec{
+      text-wrap: wrap;
+      flex-direction: row;
+      text-align: center;
+      margin: auto;
+      padding: 10px 30px;
+
+   }
+   .sect-1{
+
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      margin: auto;
+      text-wrap: wrap;
+   }
+   .sect-1 img{
+      margin: auto;
+      margin-top: 80px;
+   }
+   .sect-1 h1{
+      font-size: 40px;
+   }
+   .tec-1{
+      text-wrap: wrap;
+      flex-direction: row;
+      text-align: center;
+      margin: auto;
+      padding: 30px 30px;
+
+   }
+   .card-container{
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+   }
+
+   .card{
+      width:100%;
+      margin:20px auto;
+      align-items: center;
+      padding: 10px;
+   }
+   footer{
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
+      align-items: center;
+   }
+   footer >div{
+      margin: auto;
+      padding: auto;
+   }
+   .second{
+      text-align: center;
+      width: 50%;
+   }
+  
+}
+@media(min-width:899px)  {
+   .i-txt{
+      margin-top: 10px;
+      /* overflow: hidden; */
+   }
+}
+@media(max-width:900px){
+   .menu{
+      display: none;
+  }
+  .menu-toggle{
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+  }
+  .togglebar{
+      padding-top: 5px;
+      width: 7%;
+      margin-left: auto;
+  }
+  .menu a:hover{
+   background-color: silver;
+   /* margin-top: 8px;
+   margin-bottom: 8px; */
+  }
+  .active{
+   background-color: rgba(210, 105, 30, 0.459);
+   border-radius: 2px 4px;
+      display:  flex;
+      flex-direction: column;
+      align-items: center;
+      /* margin: 0px 80px; */
+      padding-top: 50px;
+      padding-bottom: 20px;
+      padding: 0px 30px
+
+  }
+  .active li{
+      justify-content: space-between;
+      text-align: center;
+  }
+  .active li a{
+      padding: 10px 15px;
+      font-size: 1.1rem;
+      margin-top: 7px;
+      text-align: center;
+  }
+  .active li a:hover{
+      color: white;
+      background-color: burlywood;
+  }
+  .active li:hover{
+      margin-top: 8px;
+      margin-bottom: 8px;
+  }
+  
+}
+@media (max-width:780px) {
+   .active{
+      display:  flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      /* margin: 0px 80px; */
+      padding-top: 50px;
+      padding-bottom: 5px;
+      
+}
+}
